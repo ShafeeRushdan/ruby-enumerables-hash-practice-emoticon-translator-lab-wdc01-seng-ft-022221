@@ -62,7 +62,7 @@ def get_english_meaning(emojis, japanese_emoticon)
   
   if emoticon_exist(emojis, japanese_emoticon) == sorry_message
     
- sorry_message
+ return sorry_message
   end
   
   library.each do |key, value|
