@@ -60,7 +60,7 @@ def get_english_meaning(emojis, japanese_emoticon)
   sorry_message = "Sorry, that emoticon was not found"
   library = load_library(emojis)
   
-  if emoticon_exist(emojis, japanese_emoticon) == sorry_message
+  if emoticon_exist(emojis, japanese_emoticon) == false
     
  return sorry_message
   end
