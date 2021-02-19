@@ -67,7 +67,7 @@ def get_english_meaning(emojis, japanese_emoticon)
   
   library.each do |key, value|
     
-    if library[:japanese] == japanese_emoticon
+    if library[key][:japanese] == japanese_emoticon
       
       return key
     end
